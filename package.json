@@ -4,15 +4,25 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server"
+    "start": "babel script.js --watch --out-file script-compiled.js"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "https://rmnbe.github.io/React-18.8-gifs/",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
     "http-server": "^0.11.1"
   },
   "dependencies": {
     "babel-standalone": "^6.26.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RmnBe/React-18.8-gifs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RmnBe/React-18.8-gifs/issues"
+  },
+  "homepage": "https://github.com/RmnBe/React-18.8-gifs#readme"
 }
